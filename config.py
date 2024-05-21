@@ -1,13 +1,13 @@
 from os import environ 
 
 class Config:
-    API_ID = environ.get("API_ID", "28619451")
-    API_HASH = environ.get("API_HASH", "e41e306cd0e0d0be11ec78c281f0b628")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "7072495432:AAHMFM3ejs_BZ0joIBq1_R0KOO1y3YNhFK8") 
-    BOT_SESSION = environ.get("BOT_SESSION", "BAGobe0AjWCWbnYPtQGB_8EGMSpkC10XMy-RN4uM0bGPNuU6CjTNbhbeIeKnUVZUdnwPJnI2W_W50Q2Bh0qYHACxh3F0dA2Awsjnu03cNzZZoS27kZ8Y-smM3Tt1Hx95ll0zGyrLB36ziigKOkVNrdYQM_SWNsITgLpPRWV0UnOvj_R5EdOKFByzywhfKThjJB3-i39SYY9rRTEqzMwfFCFTRojARQ13KC8SmZ14dpSpLA17bytX8lwoawmG6eVD_ukfmk76w45b6O3jbqnm7LdFC56v_77FOqU03_mVdp5dSq0HMttjX7_K4whCEbVbPDJblMm_GdM9cRyk7GBdkUBobwEQCQAAAAE7BEmYAA") 
-    DATABASE_URI = environ.get("DATABASE", "mongodb+srv://chhjgjkkjhkjhkjh@cluster0.xowzpr4.mongodb.net/")
+    API_ID = environ.get("API_ID", "27815405")
+    API_HASH = environ.get("API_HASH", "4e70821cd2af3322f7cf2f2887e32821")
+    BOT_TOKEN = environ.get("BOT_TOKEN", "6360827839:AAFb5YQwkZSdJ9cWwuAjNisTkowsu2szcks") 
+    BOT_SESSION = environ.get("BOT_SESSION", "BQGobe0ACJXMmBnzFGXaE9eEglH7p6RRtrTsASejIW7pkRHbj-lfEWcENQ0mjdkaOxxeILd53VNfgjUepSZ4rQtCWGigbL3VJOXu7ZIcxDJLSDkOrRsHF_VY32o4n2SoKbbtQ4_BJMUKWqUUpzw17eDg5tSDGvVbuM_ofRkbEMg_zbAaVsiTgWJnYdtYMwgVUn4qweTLtFgy5SSt3ATwN1YG3nyANRyn7mCE_pyzKIBvZNMnjS61Qdm8tOysa47RWr2RWFiZXzmQXyDB9RPTHMCBamYidRmoOVyCQn1-EzQpGnmUnEeWdqqsjJxXkMNp61FEClwz-1ZkzHXugO3WDiDmjYrx8gAAAAGOJFsyAA") 
+    DATABASE_URI = environ.get("DATABASE", "mongodb+srv://t14012318:pJoLHqidazIlyVKj@cluster0.p4uurti.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "forward-bot")
-    BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '5285104024').split()]
+    BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '6679714610').split()]
 
 class temp(object): 
     lock = {}
